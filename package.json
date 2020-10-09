@@ -21,6 +21,7 @@
   "homepage": "https://github.com/mansan1souleiman1ahmed/CV#readme",
   "dependencies": {
     "aos": "^2.3.4",
+    "bootstrap": "^4.5.2",
     "framer-motion": "^1.11.1",
     "react": "^16.13.1",
     "react-dom": "^16.11.0",
