@@ -5,8 +5,8 @@ export default function FirstSlide() {
   return (
     <Fragment>
       <div className={"first-slide"}>
-        <div className={"first-time-img"}>
-          <img className={"img-first-slide"} src={ImgDesktopHeroOne} />{" "}
+        <div className={"first-slide-img"}>
+          <img className={"img-first-slide"} src={ImgDesktopHeroOne} />
           <div className={"slide-arrows-container"}>
             <div className={"side-arrows-left common-side-arrows"}>
               <svg
@@ -32,7 +32,7 @@ export default function FirstSlide() {
                   d={"M1 0l12 12L1 24"}
                   stroke={"#FFF"}
                   fill={"none"}
-                  fill-rule={"evenodd"}
+                  fillRule={"evenodd"}
                 />
               </svg>
             </div>
@@ -48,11 +48,17 @@ export default function FirstSlide() {
           <div className={"shop-button"}>
             <p>{"SHOP NOW"}</p>
             <div className={"svg-arrow"}>
-              <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                width={"40"}
+                height={"12"}
+                xmlns={"http://www.w3.org/2000/svg"}
+              >
                 <path
-                  d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
-                  fill="#000"
-                  fill-rule="nonzero"
+                  d={
+                    "M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+                  }
+                  fill={"#000"}
+                  fillRule={"nonzero"}
                 />
               </svg>
             </div>

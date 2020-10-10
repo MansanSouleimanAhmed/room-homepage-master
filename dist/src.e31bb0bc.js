@@ -28492,11 +28492,11 @@ function FirstSlide() {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "first-slide"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "first-time-img"
+    className: "first-slide-img"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "img-first-slide",
     src: _desktopImageHero.default
-  }), " ", /*#__PURE__*/_react.default.createElement("div", {
+  }), /*#__PURE__*/_react.default.createElement("div", {
     className: "slide-arrows-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "side-arrows-left common-side-arrows"
@@ -28519,7 +28519,7 @@ function FirstSlide() {
     d: "M1 0l12 12L1 24",
     stroke: "#FFF",
     fill: "none",
-    "fill-rule": "evenodd"
+    fillRule: "evenodd"
   }))))), /*#__PURE__*/_react.default.createElement("div", {
     className: "text-first-slide"
   }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement du faux t"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."), /*#__PURE__*/_react.default.createElement("div", {
@@ -28533,7 +28533,7 @@ function FirstSlide() {
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z",
     fill: "#000",
-    "fill-rule": "nonzero"
+    fillRule: "nonzero"
   })))))));
 }
 },{"react":"../node_modules/react/index.js","../../images/desktop-image-hero-1.jpg":"images/desktop-image-hero-1.jpg","../../images/mobile-image-hero-1.jpg":"images/mobile-image-hero-1.jpg"}],"images/desktop-image-hero-2.jpg":[function(require,module,exports) {
@@ -28563,9 +28563,13 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function SecondSlide() {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "second-slide"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Second Slide"), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "second-slide-img"
+  }, /*#__PURE__*/_react.default.createElement("img", {
     src: _desktopImageHero.default
-  })), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.")));
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-second-slide"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."))));
 }
 },{"react":"../node_modules/react/index.js","../../images/desktop-image-hero-2.jpg":"images/desktop-image-hero-2.jpg","../../images/mobile-image-hero-2.jpg":"images/mobile-image-hero-2.jpg"}],"images/desktop-image-hero-3.jpg":[function(require,module,exports) {
 module.exports = "/desktop-image-hero-3.70d1eff5.jpg";
@@ -28594,9 +28598,13 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function ThirdSlide() {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "third-slide"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Third slide"), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "third-slide-img"
+  }, /*#__PURE__*/_react.default.createElement("img", {
     src: _desktopImageHero.default
-  })), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.")));
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-third-slide"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."))));
 }
 },{"react":"../node_modules/react/index.js","../../images/desktop-image-hero-3.jpg":"images/desktop-image-hero-3.jpg","../../images/mobile-image-hero-3.jpg":"images/mobile-image-hero-3.jpg"}],"components/section-one.js":[function(require,module,exports) {
 "use strict";
@@ -28620,10 +28628,45 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function SectionOne() {
+  var _useState = (0, _react.useState)(0),
+      _useState2 = _slicedToArray(_useState, 2),
+      slideImg = _useState2[0],
+      setSlideImg = _useState2[1];
+
+  (0, _react.useEffect)(function () {
+    var init = setInterval(function () {
+      setSlideImg(slideImg - 100);
+
+      if (slideImg === -200) {
+        setSlideImg(0);
+      }
+    }, 6000);
+    return function () {
+      return clearInterval(init);
+    };
+  }, [slideImg]);
+  console.log(slideImg);
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
     className: "section-one"
-  }, /*#__PURE__*/_react.default.createElement(_firstSlide.default, null), /*#__PURE__*/_react.default.createElement(_secondSlide.default, null), /*#__PURE__*/_react.default.createElement(_thirdSlide.default, null)));
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "slide-container",
+    style: {
+      transform: "translateX(".concat(slideImg, "%)")
+    }
+  }, /*#__PURE__*/_react.default.createElement(_firstSlide.default, null), /*#__PURE__*/_react.default.createElement(_secondSlide.default, null), /*#__PURE__*/_react.default.createElement(_thirdSlide.default, null))));
 }
 },{"react":"../node_modules/react/index.js","./sectionOne/first-slide":"components/sectionOne/first-slide.js","./sectionOne/second-slide":"components/sectionOne/second-slide.js","./sectionOne/third-slide":"components/sectionOne/third-slide.js"}],"images/image-about-dark.jpg":[function(require,module,exports) {
 module.exports = "/image-about-dark.c69f72ea.jpg";
@@ -28652,9 +28695,15 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function SectionTwo() {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
     className: "section-two"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "section-two"), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "second-section-img-one"
+  }, /*#__PURE__*/_react.default.createElement("img", {
     src: _imageAboutDark.default
-  })), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-second-section"
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "second-section-img-two"
+  }, /*#__PURE__*/_react.default.createElement("img", {
     src: _imageAboutLight.default
   }))));
 }
@@ -28766,7 +28815,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46721" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37611" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
