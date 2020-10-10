@@ -3,17 +3,113 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/grid";
+
 body {
-  background-color: black;
-  font-size: 20px;
+  font-size: 12px;
+
   header {
     font-size: 1.2em;
-    ul {
-      list-style: none;
+    background-color: red;
+    opacity: 0.2;
 
-      li {
-        display: inline-block;
+    nav {
+      ul {
+        list-style: none;
+        padding: 15px;
+        margin: 0px;
+        .display {
+          display: none;
+        }
+        .hamburger {
+        }
+
+        li {
+          display: inline-block;
+        }
+      }
+      .logo {
+        position: relative;
+        text-align: center;
+        top: -30px;
+      }
+    }
+  }
+  .section-one {
+    position: relative;
+    top: -72px;
+    .first-slide {
+      position: inherit;
+      z-index: -1;
+      .first-time-img {
+        position: relative;
+        img {
+          max-width: 100vw;
+        }
+
+        .slide-arrows-container {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          width: 120px;
+          height: 50px;
+          background-color: black;
+          .common-side-arrows {
+            position: fixed;
+            width: 50px;
+            padding: 12px;
+            height: 50px;
+          }
+          .side-arrows-left {
+          }
+
+          .side-arrows-right {
+            margin-left: 50px;
+          }
+        }
+      }
+
+      .text-first-slide {
+        h1 {
+          font-weight: 500;
+          font-size: 30px;
+        }
+        margin-top: 50px;
         padding: 20px;
+        p {
+          line-height: 25px;
+        }
+        .shop-button {
+          width: 200px;
+          display: flex;
+          justify-content: space-around;
+          p {
+          }
+          svg {
+          }
+        }
+      }
+    }
+
+    .second-slide {
+    }
+    .third-slide {
+    }
+  }
+  .section-two {
+    display: none;
+  }
+}
+@media (min-width: 575px) {
+  body {
+    header {
+      nav {
+        ul {
+          .display {
+            display: block;
+          }
+          li {
+          }
+        }
       }
     }
   }

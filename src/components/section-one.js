@@ -6,9 +6,11 @@ import ThirdSlide from "./sectionOne/third-slide";
 export default function SectionOne() {
   return (
     <Fragment>
-      <FirstSlide />
-      <SecondSlide />
-      <ThirdSlide />
+      <section className={"section-one"}>
+        <FirstSlide />
+        <SecondSlide />
+        <ThirdSlide />
+      </section>
     </Fragment>
   );
 }
