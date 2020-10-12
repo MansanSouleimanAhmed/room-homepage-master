@@ -1,9 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
-import FirstSlide from "./sectionOne/first-slide";
-import SecondSlide from "./sectionOne/second-slide";
-import ThirdSlide from "./sectionOne/third-slide";
+import ImgText from "./sectionOne/img-text";
 
-export default function SectionOne() {
+export default function SectionOne(props) {
   const [slideImg, setSlideImg] = useState(0);
   useEffect(() => {
     var init = setInterval(() => {
@@ -14,18 +12,11 @@ export default function SectionOne() {
     }, 6000);
     return () => clearInterval(init);
   }, [slideImg]);
-  console.log(slideImg);
+  //console.log(slideImg);
   return (
     <Fragment>
       <section className={"section-one"}>
-        <div
-          className={"slide-container"}
-          style={{ transform: `translateX(${slideImg}%)` }}
-        >
-          <FirstSlide />
-          <SecondSlide />
-          <ThirdSlide />
-        </div>
+        <ImgText />
       </section>
     </Fragment>
   );

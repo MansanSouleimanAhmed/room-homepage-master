@@ -1,38 +1,6 @@
 import React, { Fragment, useLayoutEffect, useState, useEffect } from "react";
 
 export default function Header() {
-  const [little, setLittle] = useState(0);
-  const [size, setSize] = useState(0);
-  const [widthOne, setWidthtOne] = useState(250);
-  const [toggle, setToggle] = useState(false);
-  function sizeWidth() {
-    useLayoutEffect(() => {
-      function updateSize() {
-        setSize(window.innerWidth);
-      }
-      window.addEventListener("resize", updateSize);
-      updateSize();
-      return () => window.removeEventListener("resize", updateSize);
-    }, []);
-
-    return size;
-  }
-
-  // console.log("fsdsdsdfd :" + sizeWidth());
-  let sizeWid;
-  sizeWid = sizeWidth();
-  let display;
-  useEffect(() => {
-    function test() {
-      if (sizeWid > 300) {
-        console.log("test");
-      } else {
-        console.log("tetttttttttttttt");
-      }
-    }
-    test();
-  }, []);
-
   return (
     <Fragment>
       <header>
