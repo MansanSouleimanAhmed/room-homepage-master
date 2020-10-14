@@ -12,11 +12,29 @@ export default function SectionOne(props) {
     }, 6000);
     return () => clearInterval(init);
   }, [slideImg]);
-  //console.log(slideImg);
+
+  const slideLeft = () => {
+    setSlideImg(slideImg + 100);
+    if (slideImg === 0) {
+      setSlideImg(-200);
+    }
+  };
+  const slideRight = () => {
+    setSlideImg(slideImg - 100);
+    if (slideImg === -200) {
+      setSlideImg(0);
+    }
+  };
   return (
     <Fragment>
       <section className={"section-one"}>
-        <ImgText />
+        <ImgText
+          slideImg={slideImg}
+          slideRight={slideRight}
+          slideLeft={slideLeft}
+          toggle={props.toggle}
+          onClick={props.onClick}
+        />
       </section>
     </Fragment>
   );

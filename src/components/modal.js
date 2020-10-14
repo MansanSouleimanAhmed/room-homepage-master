@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import ReactDom from "react-dom";
 import Header from "./header/header";
 const MODAL_STYLE = {
@@ -20,16 +20,23 @@ const OVERLAY_STYLE = {
   zIndex: 1,
   opacity: 0.5,
 };
-export default function Modal({ onClick, toggle }) {
-  console.log(toggle);
-  if (!toggle) return null;
+
+export default function Modal(props) {
   return ReactDom.createPortal(
     <>
-      <div style={OVERLAY_STYLE} />
+      <div
+        style={OVERLAY_STYLE}
+        className={` ${!props.toggle ? `-close` : `-open`}`}
+      />
       <div style={MODAL_STYLE}>
-        <header className={"header"}>
+        <header className={`header ${!props.toggle ? `-close` : `-open`}`}>
           <nav>
-            <div className={"button-close"} onClick={onClick}>
+            <div
+              className={"button-close"}
+              onClick={(event) => {
+                props.onClick(event);
+              }}
+            >
               <svg
                 width={"16"}
                 height={"16"}

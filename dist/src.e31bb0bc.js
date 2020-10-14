@@ -28460,7 +28460,75 @@ module.exports = "/mobile-image-hero-2.f564c492.jpg";
 module.exports = "/desktop-image-hero-3.70d1eff5.jpg";
 },{}],"images/mobile-image-hero-3.jpg":[function(require,module,exports) {
 module.exports = "/mobile-image-hero-3.3bb768ca.jpg";
-},{}],"components/sectionOne/img-text.js":[function(require,module,exports) {
+},{}],"components/sectionOne/arrows-container.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ArrowsContainer;
+
+var _react = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ArrowsContainer(props) {
+  return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "arrows-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "arrow-left"
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    width: "14",
+    height: "24",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M13 0L1 12l12 12",
+    stroke: "#FFF",
+    fill: "none",
+    fillRule: "evenodd"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "arrow-right"
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    width: "14",
+    height: "24",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M1 0l12 12L1 24",
+    stroke: "#FFF",
+    fill: "none",
+    fillRule: "evenodd"
+  })))));
+}
+},{"react":"../node_modules/react/index.js"}],"components/sectionOne/logo.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Logo;
+
+var _react = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function Logo() {
+  return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "logo"
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    width: "62",
+    height: "14",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M2.988 12.672v-7.32c0-.48.142-.928.426-1.344a3.36 3.36 0 011.11-1.02c.456-.264.94-.396 1.452-.396.296 0 .618.048.966.144.348.096.654.224.918.384L9.096.588A4.277 4.277 0 007.998.162 5.115 5.115 0 006.744 0c-.776 0-1.488.186-2.136.558-.648.372-1.188.91-1.62 1.614V.384H0v12.288h2.988zm13.472.384c1.328 0 2.526-.276 3.594-.828a6.406 6.406 0 002.532-2.304c.62-.984.93-2.116.93-3.396 0-1.288-.31-2.422-.93-3.402A6.421 6.421 0 0020.054.828C18.986.276 17.788 0 16.46 0c-1.336 0-2.536.276-3.6.828a6.476 6.476 0 00-2.532 2.298c-.624.98-.936 2.114-.936 3.402 0 1.28.312 2.412.936 3.396a6.45 6.45 0 002.538 2.304c1.068.552 2.266.828 3.594.828zm0-2.568c-.744 0-1.416-.17-2.016-.51a3.729 3.729 0 01-1.416-1.404c-.344-.596-.516-1.278-.516-2.046 0-.776.172-1.462.516-2.058a3.686 3.686 0 011.416-1.398c.6-.336 1.272-.504 2.016-.504.752 0 1.426.168 2.022.504a3.698 3.698 0 011.41 1.398c.344.596.516 1.282.516 2.058 0 .768-.172 1.45-.516 2.046a3.741 3.741 0 01-1.41 1.404c-.596.34-1.27.51-2.022.51zm15.704 2.568c1.328 0 2.526-.276 3.594-.828a6.406 6.406 0 002.532-2.304c.62-.984.93-2.116.93-3.396 0-1.288-.31-2.422-.93-3.402A6.421 6.421 0 0035.758.828C34.69.276 33.492 0 32.164 0c-1.336 0-2.536.276-3.6.828a6.476 6.476 0 00-2.532 2.298c-.624.98-.936 2.114-.936 3.402 0 1.28.312 2.412.936 3.396a6.45 6.45 0 002.538 2.304c1.068.552 2.266.828 3.594.828zm0-2.568c-.744 0-1.416-.17-2.016-.51a3.729 3.729 0 01-1.416-1.404c-.344-.596-.516-1.278-.516-2.046 0-.776.172-1.462.516-2.058a3.686 3.686 0 011.416-1.398c.6-.336 1.272-.504 2.016-.504.752 0 1.426.168 2.022.504a3.698 3.698 0 011.41 1.398c.344.596.516 1.282.516 2.058 0 .768-.172 1.45-.516 2.046a3.741 3.741 0 01-1.41 1.404c-.596.34-1.27.51-2.022.51zm12.608 2.184V4.896c0-.44.126-.85.378-1.23s.596-.686 1.032-.918c.436-.232.93-.348 1.482-.348.8 0 1.432.258 1.896.774.464.516.696 1.206.696 2.07v7.428h2.988V4.908c0-.44.124-.852.372-1.236a2.717 2.717 0 011.02-.924c.432-.232.92-.348 1.464-.348.8 0 1.438.266 1.914.798s.714 1.254.714 2.166v7.308h2.988V4.548c0-.952-.198-1.766-.594-2.442a4.051 4.051 0 00-1.62-1.56C58.818.182 58.036 0 57.156 0c-.928 0-1.744.21-2.448.63-.704.42-1.332 1.022-1.884 1.806-.312-.744-.846-1.336-1.602-1.776C50.466.22 49.604 0 48.636 0c-.752 0-1.442.152-2.07.456-.628.304-1.226.772-1.794 1.404V.384h-2.988v12.288h2.988z",
+    fill: "#FFF",
+    fillRule: "nonzero"
+  }))));
+}
+},{"react":"../node_modules/react/index.js"}],"components/sectionOne/img-text.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28482,30 +28550,21 @@ var _desktopImageHero3 = _interopRequireDefault(require("../../images/desktop-im
 
 var _mobileImageHero3 = _interopRequireDefault(require("../../images/mobile-image-hero-3.jpg"));
 
+var _arrowsContainer = _interopRequireDefault(require("./arrows-container"));
+
+var _logo = _interopRequireDefault(require("./logo"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+var invisble = {
+  visibility: "hidden"
+};
 
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-function ImgText() {
-  var _useState = (0, _react.useState)(0),
-      _useState2 = _slicedToArray(_useState, 2),
-      slideImg = _useState2[0],
-      setSlideImg = _useState2[1];
-
+function ImgText(props) {
   var arrayBanner = [/*#__PURE__*/_react.default.createElement("img", {
     src: _mobileImageHero.default
   }), /*#__PURE__*/_react.default.createElement("img", {
@@ -28513,83 +28572,50 @@ function ImgText() {
   }), /*#__PURE__*/_react.default.createElement("img", {
     src: _mobileImageHero3.default
   })];
-  (0, _react.useEffect)(function () {
-    var init = setInterval(function () {
-      setSlideImg(slideImg - 100);
-
-      if (slideImg === -200) {
-        setSlideImg(0);
-      }
-    }, 6000);
-    return function () {
-      return clearInterval(init);
-    };
-  }, [slideImg]);
-
-  var slideLeft = function slideLeft() {
-    setSlideImg(slideImg + 100);
-
-    if (slideImg === 0) {
-      setSlideImg(-200);
-    }
-  };
-
-  var slideRight = function slideRight() {
-    setSlideImg(slideImg - 100);
-
-    if (slideImg === -200) {
-      setSlideImg(0);
-    }
-  };
-
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "img-text"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "img-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "nav-bar"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "hamburger-div",
+    onClick: props.onClick
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    width: "20",
+    height: "14",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z",
+    fill: "#FFF",
+    fillRule: "evenodd"
+  }))), /*#__PURE__*/_react.default.createElement(_logo.default, null), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "home"), /*#__PURE__*/_react.default.createElement("li", null, "shop"), /*#__PURE__*/_react.default.createElement("li", null, "about"), /*#__PURE__*/_react.default.createElement("li", null, "contact"))), /*#__PURE__*/_react.default.createElement(_arrowsContainer.default, {
+    slideLeft: props.slideLeft,
+    slideRight: props.slideRight,
+    toggle: props.toggle,
+    onClick: props.onClick
+  }), /*#__PURE__*/_react.default.createElement("div", {
     className: "img-slide",
     style: {
-      transform: "translateX(".concat(slideImg, "%)")
+      transform: "translateX(".concat(props.slideImg, "%)")
     }
   }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "img-one",
     src: _mobileImageHero.default
   }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "img-two",
     src: _mobileImageHero2.default
   }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "img-three",
     src: _mobileImageHero3.default
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "arrows-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "arrow-left",
-    onClick: slideLeft
-  }, /*#__PURE__*/_react.default.createElement("svg", {
-    width: "14",
-    height: "24",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M13 0L1 12l12 12",
-    stroke: "#FFF",
-    fill: "none",
-    fillRule: "evenodd"
   }))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "arrow-right",
-    onClick: slideRight
-  }, /*#__PURE__*/_react.default.createElement("svg", {
-    width: "14",
-    height: "24",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M1 0l12 12L1 24",
-    stroke: "#FFF",
-    fill: "none",
-    fillRule: "evenodd"
-  }))))), /*#__PURE__*/_react.default.createElement("div", {
     className: "text-container",
     style: {
-      transform: "translateX(".concat(slideImg, "%)")
+      transform: "translateX(".concat(props.slideImg, "%)")
     }
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-one"
+    className: "text-one",
+    style: props.slideImg === -100 ? invisble : null
   }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement du faux t"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."), /*#__PURE__*/_react.default.createElement("div", {
     className: "shop-button"
   }, /*#__PURE__*/_react.default.createElement("p", null, "SHOP NOW"), /*#__PURE__*/_react.default.createElement("div", {
@@ -28603,7 +28629,8 @@ function ImgText() {
     fill: "#000",
     fillRule: "nonzero"
   }))))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-two"
+    className: "text-two",
+    style: props.slideImg === -200 ? invisble : null
   }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement du faux t"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."), /*#__PURE__*/_react.default.createElement("div", {
     className: "shop-button"
   }, /*#__PURE__*/_react.default.createElement("p", null, "SHOP NOW"), /*#__PURE__*/_react.default.createElement("div", {
@@ -28632,7 +28659,7 @@ function ImgText() {
     fillRule: "nonzero"
   }))))))));
 }
-},{"react":"../node_modules/react/index.js","../../images/desktop-image-hero-1.jpg":"images/desktop-image-hero-1.jpg","../../images/mobile-image-hero-1.jpg":"images/mobile-image-hero-1.jpg","../../images/desktop-image-hero-2.jpg":"images/desktop-image-hero-2.jpg","../../images/mobile-image-hero-2.jpg":"images/mobile-image-hero-2.jpg","../../images/desktop-image-hero-3.jpg":"images/desktop-image-hero-3.jpg","../../images/mobile-image-hero-3.jpg":"images/mobile-image-hero-3.jpg"}],"components/section-one.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../../images/desktop-image-hero-1.jpg":"images/desktop-image-hero-1.jpg","../../images/mobile-image-hero-1.jpg":"images/mobile-image-hero-1.jpg","../../images/desktop-image-hero-2.jpg":"images/desktop-image-hero-2.jpg","../../images/mobile-image-hero-2.jpg":"images/mobile-image-hero-2.jpg","../../images/desktop-image-hero-3.jpg":"images/desktop-image-hero-3.jpg","../../images/mobile-image-hero-3.jpg":"images/mobile-image-hero-3.jpg","./arrows-container":"components/sectionOne/arrows-container.js","./logo":"components/sectionOne/logo.js"}],"components/section-one.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28679,11 +28706,33 @@ function SectionOne(props) {
     return function () {
       return clearInterval(init);
     };
-  }, [slideImg]); //console.log(slideImg);
+  }, [slideImg]);
+
+  var slideLeft = function slideLeft() {
+    setSlideImg(slideImg + 100);
+
+    if (slideImg === 0) {
+      setSlideImg(-200);
+    }
+  };
+
+  var slideRight = function slideRight() {
+    setSlideImg(slideImg - 100);
+
+    if (slideImg === -200) {
+      setSlideImg(0);
+    }
+  };
 
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
     className: "section-one"
-  }, /*#__PURE__*/_react.default.createElement(_imgText.default, null)));
+  }, /*#__PURE__*/_react.default.createElement(_imgText.default, {
+    slideImg: slideImg,
+    slideRight: slideRight,
+    slideLeft: slideLeft,
+    toggle: props.toggle,
+    onClick: props.onClick
+  })));
 }
 },{"react":"../node_modules/react/index.js","./sectionOne/img-text":"components/sectionOne/img-text.js"}],"images/image-about-dark.jpg":[function(require,module,exports) {
 module.exports = "/image-about-dark.c69f72ea.jpg";
@@ -28703,6 +28752,8 @@ var _imageAboutDark = _interopRequireDefault(require("../images/image-about-dark
 
 var _imageAboutLight = _interopRequireDefault(require("../images/image-about-light.jpg"));
 
+var _arrowsContainer = _interopRequireDefault(require("./sectionOne/arrows-container"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
@@ -28718,13 +28769,13 @@ function SectionTwo() {
     src: _imageAboutDark.default
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "text-second-section"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.")), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem ")), /*#__PURE__*/_react.default.createElement("div", {
     className: "second-section-img-two"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _imageAboutLight.default
   }))));
 }
-},{"react":"../node_modules/react/index.js","../images/image-about-dark.jpg":"images/image-about-dark.jpg","../images/image-about-light.jpg":"images/image-about-light.jpg"}],"components/sectionOne/transparent-div.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../images/image-about-dark.jpg":"images/image-about-dark.jpg","../images/image-about-light.jpg":"images/image-about-light.jpg","./sectionOne/arrows-container":"components/sectionOne/arrows-container.js"}],"components/sectionOne/transparent-div.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28786,20 +28837,19 @@ var OVERLAY_STYLE = {
   opacity: 0.5
 };
 
-function Modal(_ref) {
-  var onClick = _ref.onClick,
-      toggle = _ref.toggle;
-  console.log(toggle);
-  if (!toggle) return null;
+function Modal(props) {
   return _reactDom.default.createPortal( /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
-    style: OVERLAY_STYLE
+    style: OVERLAY_STYLE,
+    className: " ".concat(!props.toggle ? "-close" : "-open")
   }), /*#__PURE__*/_react.default.createElement("div", {
     style: MODAL_STYLE
   }, /*#__PURE__*/_react.default.createElement("header", {
-    className: "header"
+    className: "header ".concat(!props.toggle ? "-close" : "-open")
   }, /*#__PURE__*/_react.default.createElement("nav", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "button-close",
-    onClick: onClick
+    onClick: function onClick(event) {
+      props.onClick(event);
+    }
   }, /*#__PURE__*/_react.default.createElement("svg", {
     width: "16",
     height: "16",
@@ -28860,6 +28910,11 @@ function HomePage() {
       isOpen = _useState4[0],
       setIsOpen = _useState4[1];
 
+  var _useState5 = (0, _react.useState)(0),
+      _useState6 = _slicedToArray(_useState5, 2),
+      slideImg = _useState6[0],
+      setSlideImg = _useState6[1];
+
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement(_modal.default, {
     toggle: toggle,
     onClick: function onClick() {
@@ -28868,13 +28923,15 @@ function HomePage() {
       });
     }
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "test",
+    className: "sections-container"
+  }, /*#__PURE__*/_react.default.createElement(_sectionOne.default, {
+    toggle: toggle,
     onClick: function onClick() {
       setToggle(function (state) {
         return !state;
       });
     }
-  }), /*#__PURE__*/_react.default.createElement(_sectionOne.default, null), /*#__PURE__*/_react.default.createElement(_sectionTwo.default, null));
+  }), /*#__PURE__*/_react.default.createElement(_sectionTwo.default, null)));
 }
 },{"react":"../node_modules/react/index.js","./header/header.js":"components/header/header.js","./section-one.js":"components/section-one.js","./section-two.js":"components/section-two.js","./sectionOne/transparent-div.js":"components/sectionOne/transparent-div.js","./modal.js":"components/modal.js"}],"app.js":[function(require,module,exports) {
 "use strict";
@@ -28955,7 +29012,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40641" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42741" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

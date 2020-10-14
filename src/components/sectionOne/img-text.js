@@ -5,85 +5,68 @@ import ImgDesktopHeroSeconde from "../../images/desktop-image-hero-2.jpg";
 import ImgMobileHeroSecond from "../../images/mobile-image-hero-2.jpg";
 import ImgDesktopHeroThree from "../../images/desktop-image-hero-3.jpg";
 import ImgMobileHeroThree from "../../images/mobile-image-hero-3.jpg";
-
-export default function ImgText() {
-  const [slideImg, setSlideImg] = useState(0);
+import ArrowsContainer from "./arrows-container";
+import Logo from "./logo";
+const invisble = {
+  visibility: "hidden",
+};
+export default function ImgText(props) {
   const arrayBanner = [
     <img src={ImgMobileHeroOne} />,
     <img src={ImgMobileHeroSecond} />,
     <img src={ImgMobileHeroThree} />,
   ];
-  useEffect(() => {
-    var init = setInterval(() => {
-      setSlideImg(slideImg - 100);
-      if (slideImg === -200) {
-        setSlideImg(0);
-      }
-    }, 6000);
-    return () => clearInterval(init);
-  }, [slideImg]);
 
-  const slideLeft = () => {
-    setSlideImg(slideImg + 100);
-    if (slideImg === 0) {
-      setSlideImg(-200);
-    }
-  };
-  const slideRight = () => {
-    setSlideImg(slideImg - 100);
-    if (slideImg === -200) {
-      setSlideImg(0);
-    }
-  };
   return (
     <Fragment>
       <div className={"img-text"}>
         <div className={"img-container"}>
+          <div className={"nav-bar"}>
+            <div className={"hamburger-div"} onClick={props.onClick}>
+              <svg
+                width="20"
+                height={"14"}
+                xmlns={"http://www.w3.org/2000/svg"}
+              >
+                <path
+                  d={"M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z"}
+                  fill={"#FFF"}
+                  fillRule={"evenodd"}
+                />
+              </svg>
+            </div>
+            <Logo />
+            <ul>
+              <li>{"home"}</li>
+              <li>{"shop"}</li>
+              <li>{"about"}</li>
+              <li>{"contact"}</li>
+            </ul>
+          </div>
+          <ArrowsContainer
+            slideLeft={props.slideLeft}
+            slideRight={props.slideRight}
+            toggle={props.toggle}
+            onClick={props.onClick}
+          />
           <div
             className={"img-slide"}
-            style={{ transform: `translateX(${slideImg}%)` }}
+            style={{ transform: `translateX(${props.slideImg}%)` }}
           >
-            <img src={ImgMobileHeroOne} />
-            <img src={ImgMobileHeroSecond} />
-            <img src={ImgMobileHeroThree} />
-          </div>
-          <div className={"arrows-container"}>
-            <div className={"arrow-left"} onClick={slideLeft}>
-              <svg
-                width={"14"}
-                height={"24"}
-                xmlns={"http://www.w3.org/2000/svg"}
-              >
-                <path
-                  d={"M13 0L1 12l12 12"}
-                  stroke={"#FFF"}
-                  fill={"none"}
-                  fillRule={"evenodd"}
-                />
-              </svg>
-            </div>
-            <div className={"arrow-right"} onClick={slideRight}>
-              <svg
-                width={"14"}
-                height={"24"}
-                xmlns={"http://www.w3.org/2000/svg"}
-              >
-                <path
-                  d={"M1 0l12 12L1 24"}
-                  stroke={"#FFF"}
-                  fill={"none"}
-                  fillRule={"evenodd"}
-                />
-              </svg>
-            </div>
+            <img className={"img-one"} src={ImgMobileHeroOne} />
+            <img className={"img-two"} src={ImgMobileHeroSecond} />
+            <img className={"img-three"} src={ImgMobileHeroThree} />
           </div>
         </div>
 
         <div
           className={"text-container"}
-          style={{ transform: `translateX(${slideImg}%)` }}
+          style={{ transform: `translateX(${props.slideImg}%)` }}
         >
-          <div className={"text-one"}>
+          <div
+            className={"text-one"}
+            style={props.slideImg === -100 ? invisble : null}
+          >
             <h1>{"Le Lorem Ipsum est simplement du faux t"}</h1>
             <p>
               {
@@ -109,7 +92,11 @@ export default function ImgText() {
               </div>
             </div>
           </div>
-          <div className={"text-two"}>
+
+          <div
+            className={"text-two"}
+            style={props.slideImg === -200 ? invisble : null}
+          >
             <h1>{"Le Lorem Ipsum est simplement du faux t"}</h1>
             <p>
               {
