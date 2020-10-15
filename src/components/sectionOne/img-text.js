@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect, useState, useRef } from "react";
-import ImgDesktopHeroOne from "../../images/desktop-image-hero-1.jpg";
-import ImgMobileHeroOne from "../../images/mobile-image-hero-1.jpg";
-import ImgDesktopHeroSeconde from "../../images/desktop-image-hero-2.jpg";
-import ImgMobileHeroSecond from "../../images/mobile-image-hero-2.jpg";
-import ImgDesktopHeroThree from "../../images/desktop-image-hero-3.jpg";
-import ImgMobileHeroThree from "../../images/mobile-image-hero-3.jpg";
+import ImgDesktopHeroOne from "../../mimified-img/desktop-image-hero-1.jpg";
+import ImgMobileHeroOne from "../../mimified-img/mobile-image-hero-1.jpg";
+import ImgDesktopHeroSeconde from "../../mimified-img/desktop-image-hero-2.jpg";
+import ImgMobileHeroSecond from "../../mimified-img/mobile-image-hero-2.jpg";
+import ImgDesktopHeroThree from "../../mimified-img/desktop-image-hero-3.jpg";
+import ImgMobileHeroThree from "../../mimified-img/mobile-image-hero-3.jpg";
 import ArrowsContainer from "./arrows-container";
 import Logo from "./logo";
 const invisble = {
