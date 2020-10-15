@@ -67,10 +67,10 @@ export default function ImgText(props) {
             className={"text-one"}
             style={props.slideImg === -100 ? invisble : null}
           >
-            <h1>{"Le Lorem Ipsum est simplement du faux t"}</h1>
+            <h1>{"Discover innovative ways to decorate"}</h1>
             <p>
               {
-                "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
+                "We provide unmatched quality, comfort, and style for property owners acorss the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you znd what you love."
               }
             </p>
             <div className={"shop-button"}>
@@ -97,10 +97,10 @@ export default function ImgText(props) {
             className={"text-two"}
             style={props.slideImg === -200 ? invisble : null}
           >
-            <h1>{"Le Lorem Ipsum est simplement du faux t"}</h1>
+            <h1>{"We are available all across the globe"}</h1>
             <p>
               {
-                "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
+                "With stores all over world. It is easy for you to find furniture for your home or place of of business. Locally, we are in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don' hesitate to contact us today."
               }
             </p>
             <div className={"shop-button"}>
@@ -123,10 +123,10 @@ export default function ImgText(props) {
             </div>
           </div>
           <div className={"text-three"}>
-            <h1>{"Le Lorem Ipsum est simplement du faux t"}</h1>
+            <h1>{"Manufactured with the best materials"}</h1>
             <p>
               {
-                "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
+                "Our modern furniture store provide a high level of quality.Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office."
               }
             </p>
             <div className={"shop-button"}>

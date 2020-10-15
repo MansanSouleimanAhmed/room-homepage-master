@@ -4,7 +4,7 @@ export default function ArrowsContainer(props) {
   return (
     <Fragment>
       <div className={"arrows-container"}>
-        <div className={"arrow-left"}>
+        <div className={"arrow-left"} onClick={props.slideLeft}>
           <svg width={"14"} height="24" xmlns={"http://www.w3.org/2000/svg"}>
             <path
               d={"M13 0L1 12l12 12"}
@@ -14,7 +14,7 @@ export default function ArrowsContainer(props) {
             />
           </svg>
         </div>
-        <div className={"arrow-right"}>
+        <div className={"arrow-right"} onClick={props.slideRight}>
           <svg width={"14"} height={"24"} xmlns={"http://www.w3.org/2000/svg"}>
             <path
               d={"M1 0l12 12L1 24"}

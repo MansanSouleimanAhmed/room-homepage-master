@@ -17,7 +17,7 @@ const OVERLAY_STYLE = {
   right: 0,
   bottom: 0,
   backgroundColor: "#000",
-  zIndex: 1,
+  zIndex: 2,
   opacity: 0.5,
 };
 

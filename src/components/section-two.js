@@ -10,10 +10,10 @@ export default function SectionTwo() {
           <img src={ImgAboutDark} />
         </div>
         <div className={"text-second-section"}>
-          <h1>{"Le Lorem Ipsum est simplement"}</h1>
+          <h1>{"ABOUT OUR FURNITURE"}</h1>
           <p>
             {
-              "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem "
+              "Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anythong in between. Product specialists are available to help you to create."
             }
           </p>
         </div>

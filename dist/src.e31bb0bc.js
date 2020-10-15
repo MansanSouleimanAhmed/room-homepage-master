@@ -28478,7 +28478,8 @@ function ArrowsContainer(props) {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "arrows-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "arrow-left"
+    className: "arrow-left",
+    onClick: props.slideLeft
   }, /*#__PURE__*/_react.default.createElement("svg", {
     width: "14",
     height: "24",
@@ -28489,7 +28490,8 @@ function ArrowsContainer(props) {
     fill: "none",
     fillRule: "evenodd"
   }))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "arrow-right"
+    className: "arrow-right",
+    onClick: props.slideRight
   }, /*#__PURE__*/_react.default.createElement("svg", {
     width: "14",
     height: "24",
@@ -28616,7 +28618,7 @@ function ImgText(props) {
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "text-one",
     style: props.slideImg === -100 ? invisble : null
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement du faux t"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Discover innovative ways to decorate"), /*#__PURE__*/_react.default.createElement("p", null, "We provide unmatched quality, comfort, and style for property owners acorss the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you znd what you love."), /*#__PURE__*/_react.default.createElement("div", {
     className: "shop-button"
   }, /*#__PURE__*/_react.default.createElement("p", null, "SHOP NOW"), /*#__PURE__*/_react.default.createElement("div", {
     className: "svg-arrow"
@@ -28631,7 +28633,7 @@ function ImgText(props) {
   }))))), /*#__PURE__*/_react.default.createElement("div", {
     className: "text-two",
     style: props.slideImg === -200 ? invisble : null
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement du faux t"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "We are available all across the globe"), /*#__PURE__*/_react.default.createElement("p", null, "With stores all over world. It is easy for you to find furniture for your home or place of of business. Locally, we are in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don' hesitate to contact us today."), /*#__PURE__*/_react.default.createElement("div", {
     className: "shop-button"
   }, /*#__PURE__*/_react.default.createElement("p", null, "SHOP NOW"), /*#__PURE__*/_react.default.createElement("div", {
     className: "svg-arrow"
@@ -28645,7 +28647,7 @@ function ImgText(props) {
     fillRule: "nonzero"
   }))))), /*#__PURE__*/_react.default.createElement("div", {
     className: "text-three"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement du faux t"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Manufactured with the best materials"), /*#__PURE__*/_react.default.createElement("p", null, "Our modern furniture store provide a high level of quality.Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office."), /*#__PURE__*/_react.default.createElement("div", {
     className: "shop-button"
   }, /*#__PURE__*/_react.default.createElement("p", null, "SHOP NOW"), /*#__PURE__*/_react.default.createElement("div", {
     className: "svg-arrow"
@@ -28769,7 +28771,7 @@ function SectionTwo() {
     src: _imageAboutDark.default
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "text-second-section"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Le Lorem Ipsum est simplement"), /*#__PURE__*/_react.default.createElement("p", null, "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem ")), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "ABOUT OUR FURNITURE"), /*#__PURE__*/_react.default.createElement("p", null, "Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anythong in between. Product specialists are available to help you to create.")), /*#__PURE__*/_react.default.createElement("div", {
     className: "second-section-img-two"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _imageAboutLight.default
@@ -28833,7 +28835,7 @@ var OVERLAY_STYLE = {
   right: 0,
   bottom: 0,
   backgroundColor: "#000",
-  zIndex: 1,
+  zIndex: 2,
   opacity: 0.5
 };
 
@@ -29012,7 +29014,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42741" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41891" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
